@@ -1,0 +1,8 @@
+C:\Users\Andrey\source\repos\Lbda\shopStorege\bin\Debug\netcoreapp2.1\storage.deps.json
+C:\Users\Andrey\source\repos\Lbda\shopStorege\bin\Debug\netcoreapp2.1\storage.dll
+C:\Users\Andrey\source\repos\Lbda\shopStorege\bin\Debug\netcoreapp2.1\storage.pdb
+C:\Users\Andrey\source\repos\Lbda\shopStorege\obj\Debug\netcoreapp2.1\storage.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\source\repos\Lbda\shopStorege\obj\Debug\netcoreapp2.1\storage.AssemblyInfoInputs.cache
+C:\Users\Andrey\source\repos\Lbda\shopStorege\obj\Debug\netcoreapp2.1\storage.AssemblyInfo.cs
+C:\Users\Andrey\source\repos\Lbda\shopStorege\obj\Debug\netcoreapp2.1\storage.dll
+C:\Users\Andrey\source\repos\Lbda\shopStorege\obj\Debug\netcoreapp2.1\storage.pdb

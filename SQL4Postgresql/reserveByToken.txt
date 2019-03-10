@@ -1,0 +1,36 @@
+--DROP FUNCTION reserve(text,text,numeric);
+CREATE OR REPLACE FUNCTION reserve(user_token text, product_name text, reserve_count numeric) RETURNS text AS $BODY$
+ declare vendor text; 
+ declare have_count numeric;
+ declare have_reserve numeric;
+ declare user_id numeric;
+ declare product_id numeric;
+ declare reserve_id numeric;
+ 
+ BEGIN
+ SELECT free_count, "id" INTO have_count, product_id from public.products where "name" = product_name FOR UPDATE;
+ 	if(have_count < reserve_count) then RETURN('out of stock');	 
+	else
+		UPDATE public.products SET free_count=(have_count - reserve_count) WHERE "id" = product_id;
+		user_id := (select "id" from public.user where "token" = user_token LIMIT 1);
+		SELECT "id", count_reserve INTO reserve_id, have_reserve from public.reserves where(id_product = product_id and id_user = user_id);
+		if have_reserve > 0 then 
+			UPDATE public.reserves SET count_reserve=(have_reserve + reserve_count) WHERE "id" = reserve_id;
+			Commit;
+			RETURN ('sucsess update');
+		else
+			INSERT INTO public.reserves(id_product, id_user, count_reserve)VALUES (product_id, user_id, reserve_count);
+			Commit;
+			RETURN('sucsess insert');
+		end if;
+		Rollback;
+		RETURN('failure, trouble with reserves table');
+	end if;
+	Rollback;
+   RETURN('failure, trouble with product table');
+   END;
+ $BODY$
+   LANGUAGE plpgsql VOLATILE
+   COST 100;
+ ALTER FUNCTION reserve(text, text, numeric)
+   OWNER TO postgres;

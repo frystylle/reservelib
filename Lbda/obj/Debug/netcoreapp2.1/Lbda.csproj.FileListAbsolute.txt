@@ -1,0 +1,14 @@
+C:\Users\Andrey\source\repos\Lbda\Lbda\bin\Debug\netcoreapp2.1\Lbda.deps.json
+C:\Users\Andrey\source\repos\Lbda\Lbda\bin\Debug\netcoreapp2.1\Lbda.runtimeconfig.json
+C:\Users\Andrey\source\repos\Lbda\Lbda\bin\Debug\netcoreapp2.1\Lbda.runtimeconfig.dev.json
+C:\Users\Andrey\source\repos\Lbda\Lbda\bin\Debug\netcoreapp2.1\Lbda.dll
+C:\Users\Andrey\source\repos\Lbda\Lbda\bin\Debug\netcoreapp2.1\Lbda.pdb
+C:\Users\Andrey\source\repos\Lbda\Lbda\obj\Debug\netcoreapp2.1\Lbda.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\source\repos\Lbda\Lbda\obj\Debug\netcoreapp2.1\Lbda.AssemblyInfoInputs.cache
+C:\Users\Andrey\source\repos\Lbda\Lbda\obj\Debug\netcoreapp2.1\Lbda.AssemblyInfo.cs
+C:\Users\Andrey\source\repos\Lbda\Lbda\obj\Debug\netcoreapp2.1\Lbda.dll
+C:\Users\Andrey\source\repos\Lbda\Lbda\obj\Debug\netcoreapp2.1\Lbda.pdb
+C:\Users\Andrey\source\repos\Lbda\Lbda\obj\Debug\netcoreapp2.1\Lbda.csprojAssemblyReference.cache
+C:\Users\Andrey\source\repos\Lbda\Lbda\obj\Debug\netcoreapp2.1\Lbda.csproj.CopyComplete
+C:\Users\Andrey\source\repos\Lbda\Lbda\bin\Debug\netcoreapp2.1\storage.dll
+C:\Users\Andrey\source\repos\Lbda\Lbda\bin\Debug\netcoreapp2.1\storage.pdb

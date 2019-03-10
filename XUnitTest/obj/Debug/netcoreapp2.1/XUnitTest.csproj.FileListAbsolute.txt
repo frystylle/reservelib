@@ -1,0 +1,17 @@
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\bin\Debug\netcoreapp2.1\XUnitTest.deps.json
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\bin\Debug\netcoreapp2.1\XUnitTest.runtimeconfig.json
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\bin\Debug\netcoreapp2.1\XUnitTest.runtimeconfig.dev.json
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\bin\Debug\netcoreapp2.1\XUnitTest.dll
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\bin\Debug\netcoreapp2.1\XUnitTest.pdb
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\bin\Debug\netcoreapp2.1\storage.dll
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\bin\Debug\netcoreapp2.1\storage.pdb
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\obj\Debug\netcoreapp2.1\XUnitTest.csprojAssemblyReference.cache
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\obj\Debug\netcoreapp2.1\XUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\obj\Debug\netcoreapp2.1\XUnitTest.AssemblyInfoInputs.cache
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\obj\Debug\netcoreapp2.1\XUnitTest.AssemblyInfo.cs
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\obj\Debug\netcoreapp2.1\XUnitTest.csproj.CopyComplete
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\obj\Debug\netcoreapp2.1\XUnitTest.dll
+C:\Users\Andrey\source\repos\Lbda\XUnitTest\obj\Debug\netcoreapp2.1\XUnitTest.pdb

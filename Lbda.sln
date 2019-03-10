@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lbda", "Lbda\Lbda.csproj", "{B5B0096C-7366-4900-8336-0A21DF6EA1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "storage", "shopStorege\storage.csproj", "{52F675AC-B0E5-40DD-AB2D-106739F90498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{51E4AB05-D654-4EAE-B415-C88A4AE46BD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5B0096C-7366-4900-8336-0A21DF6EA1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B0096C-7366-4900-8336-0A21DF6EA1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B0096C-7366-4900-8336-0A21DF6EA1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B0096C-7366-4900-8336-0A21DF6EA1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F675AC-B0E5-40DD-AB2D-106739F90498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F675AC-B0E5-40DD-AB2D-106739F90498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F675AC-B0E5-40DD-AB2D-106739F90498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F675AC-B0E5-40DD-AB2D-106739F90498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E4AB05-D654-4EAE-B415-C88A4AE46BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E4AB05-D654-4EAE-B415-C88A4AE46BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E4AB05-D654-4EAE-B415-C88A4AE46BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E4AB05-D654-4EAE-B415-C88A4AE46BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7BE4880-215B-4BC6-8770-A51B76FE06B2}
+	EndGlobalSection
+EndGlobal

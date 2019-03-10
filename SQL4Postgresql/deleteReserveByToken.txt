@@ -1,0 +1,28 @@
+--DROP FUNCTION reserve(text,text,numeric);
+CREATE OR REPLACE FUNCTION unreserve(user_token text, product_name text, unreserve_count numeric) RETURNS text AS $BODY$
+ declare vendor text; 
+ declare have_count numeric;
+ declare reserve_count numeric;
+ declare user_id numeric;
+ declare product_id numeric;
+ declare reserve_id numeric;
+ 
+ BEGIN
+ SELECT "id" INTO product_id FROM public.products WHERE "name" = product_name LIMIT 1;
+ SELECT "id" FROM public.user WHERE "token" = user_token LIMIT 1;
+ SELECT "id", count_reserve INTO reserve_id, reserve_count FROM public.products WHERE id_product = product_name AND id_user = user_id FOR UPDATE LIMIT 1;
+ if (count_reserve < unreserve_count) OR (unreserve_count is Null) then 
+ DELETE FROM public.reserves WHERE "id" = reserve_id; 	
+ Commit;
+ RETURN ('sucsess delete');
+ else
+ UPDATE public.reserves SET count_reserve = (count_reserve - unreserve_count) WHERE "id" = reserve_id;
+ Commit;
+ RETURN ('sucsess update');
+ end if;
+ END;
+ $BODY$
+   LANGUAGE plpgsql VOLATILE
+   COST 100;
+ ALTER FUNCTION reserve(text, text, numeric)
+   OWNER TO postgres;
